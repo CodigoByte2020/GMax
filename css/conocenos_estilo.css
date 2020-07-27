@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+}
+
+htmml, body {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria;
+    background-color: rgba(255, 90, 43, 0.75);
+}
+
+header{
+    width: 1200px;
+    margin: 10px 74px 0px 74px;
+    padding: 0px 0px 0px 0px;
+}
+
+header section{
+    display: inline-block;
+}
+
+#logo{
+   position: relative;
+   top:;
+   bottom:;
+   right:;
+   left:400px;
+}
+
+header section h1{
+    width:250px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 65px;
+    color: red;
+    font-family: "Huns 777 BlkCn BT";
+    text-shadow: 2px 2px 0px #ccc; 
+}
+
+#titulo{
+    position:relative;
+    bottom: 15px;
+    position: relative;
+    top:;
+    right:;
+    left:450px;
+}
+
+.primer_menu ul {
+    background-color: #000000;
+    list-style: none;
+    padding:0px 0px 0px 0px;
+    width: 1200px;
+    margin:0px 74px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#conocenos{
+    color: #000000;
+}
+
+.items li {
+    display: inline-block;
+    margin:0px;
+    padding: 10px 20px 10px 20px;
+    background: #3BA7E1;
+    box-shadow: 0px 5px 0px #1D64A6;
+    width: 196px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.items li:hover{
+    box-shadow: 0px 2px 0px #1D64A6;
+}
+
+.items li:active{
+    box-shadow: none; 
+}
+
+.items a:hover{
+    color:#000000;
+}
+
+.nosotros{
+    display: block;
+    margin: 0px 74px;
+    padding:50px 40px;
+    width: 1200px;
+    /*border: 2px solid red;*/
+}
+
+h4{
+    font-size: 25px;
+    text-align: center;
+    margin: 40px 0px 20px 0px;   
+}
+
+h4, p{
+    /*width: 450px;
+    height: 150px;*/
+    text-align: justify;
+    font-size: 20px;
+    /*position: relative;
+    top:;
+    bottom: 35px;
+    right: ;
+    left: ;*/
+}
+
+.objetivos{
+    display: inline-block;
+    margin: 0px 74px;
+    padding:50px 40px;
+    width: 1200px;
+    /*border: 2px solid red;*/ 
+}
+
+.objetivos section{
+    display: inline-block;
+    width: 400px
+}
+h5{
+    font-size: 25px;
+    text-align: center;
+    margin: 40px 0px 20px 0px;
+    /*width: 400px;*/
+    /*border: 2px solid red;*/
+}
+
+.objetivos p{
+    text-align: justify;
+    font-size: 20px;
+    /*width: 400px;
+    border: 2px solid red;*/ 
+}
+
+#mision{
+    border: 3px solid rgba(0, 188, 255, .9);
+    padding: 40px;
+    position: relative;
+    top:;
+    bottom: 50px;
+    right: ;
+    left: 100px;
+    /*background-color: rgba(255, 57, 0, .2);*/
+    background-color: #ffffff;
+    border-radius: 15px;
+    /*border: 1px solid rgba(255, 107,31.5);*/
+    box-shadow: 5px 5px 0px #cccccc;
+}
+
+#vision{
+    border: 3px solid rgba(0, 188, 255, .9);
+    padding: 40px;
+    position: relative;
+    top:;
+    bottom:80px;
+    right: ;
+    left: 200px;
+    background-color: #ffffff;
+    /*background-color: rgba(0, 188, 255, .2);*/    
+    border-radius: 15px;
+    /*border: 1px solid rgba(255, 107,31.5);*/
+    box-shadow: 5px 5px 0px #cccccc;
+}

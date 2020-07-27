@@ -1,0 +1,239 @@
+*{
+    box-sizing: border-box;
+}
+
+htmml, body {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria;
+    background-color: rgba(255, 90, 43, .75);
+}
+
+header{
+    width: 1200px;
+    margin: 10px 74px 0px 74px;
+    padding: 0px 0px 0px 0px;
+}
+
+header section{
+    display: inline-block;
+}
+
+#logo{
+   position: relative;
+   top:;
+   bottom:;
+   right:;
+   left:400px;
+}
+
+header section h1{
+    width:250px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 65px;
+    color: red;
+    font-family: "Huns 777 BlkCn BT";
+    text-shadow: 2px 2px 0px #ccc; 
+}
+
+#titulo{
+    position:relative;
+    bottom: 15px;
+    position: relative;
+    top:;
+    right:;
+    left:450px;
+}
+
+.primer_menu ul {
+    background-color: #000000;
+    list-style: none;
+    padding:0px 0px 0px 0px;
+    width: 1200px;
+    margin:0px 74px;
+}
+
+
+h3{
+    font-size: 25px;
+    text-align: center;
+    margin: 40px 0px 20px 0px; 
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#comodescargar{
+    color:#000000;
+}
+
+.items li {
+    display: inline-block;
+    margin:0px;
+    padding: 10px 20px 10px 20px;
+    background: #3BA7E1;
+    box-shadow: 0px 5px 0px #1D64A6;
+    width: 196px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.items li:hover{
+    box-shadow: 0px 2px 0px #1D64A6;
+}
+
+.items li:active{
+   box-shadow: none; 
+}
+
+.items a:hover{
+    color:#000000;
+}
+
+.como_descargar ol{
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px 74px;
+    /*border: 2px solid red;*/
+}
+
+.requisitos{
+    padding:0px 0px 0px 0px;
+    width: 1200px;
+    margin:50px 74px;
+    /*border: 2px solid red;*/
+    width: 1200px;
+}
+
+.requisitos section{
+    font-size: 25px;
+    text-align: center;
+}
+
+.requisitos p{
+    text-align: center;
+}
+
+.requisitos iframe{
+    border: 2px solid #000000;
+}
+.ejemplos{
+    width: 1200px;
+    margin: 50px 74px;
+    /*border: 2px solid red;*/
+}
+
+.ejem1 p, .ejem1 img{
+    display: inline-block;
+    width: 500px;
+    margin: 20px 48px;
+    /*border: 2px solid red;*/
+    font-size: 20px;
+    text-align: center;
+}
+
+.ejem1 p{
+    position: relative;
+    top:;
+    bottom:55px;
+    right: ;
+    left: ;
+}
+
+.ejem2 p, .ejem2 img{
+    width: 500px;
+    display: inline-block;
+    margin: 20px 48px;
+    /*border: 2px solid red;*/
+    font-size: 20px;
+    text-align: center;
+}
+
+.ejem2 p{
+    /*border: 2px solid red;*/
+    width: 500px;
+    position: relative;
+    top:;
+    bottom:140px;
+    right: ;
+    left: ;
+}
+
+.ejem2 img{
+    /*border: 2px solid red;*/
+    width: 150px;
+    position: relative;
+    top:;
+    bottom:;
+    right: ;
+    left:190px ;
+}
+
+.ejem3 p, .ejem3 img{
+    display: inline-block;
+    width: 500px;
+    margin: 20px 48px;
+    /*border: 2px solid red;*/
+    font-size: 20px;
+    text-align: center;
+}
+
+.ejem3 p{
+    position: relative;
+    top:;
+    bottom:40px;
+    right: ;
+    left: ;
+}
+
+.ejem4 p, .ejem4 img{
+    display: inline-block;
+    width: 500px;
+    margin: 20px 48px;
+    /*border: 2px solid red;*/
+    font-size: 20px;
+    text-align: center;
+}
+
+.ejem4 p{
+   /*border: 2px solid red;*/
+    width: 500px;
+    position: relative;
+    top:;
+    bottom:62px;
+    right: ;
+    left: ;
+}
+
+.ejem4 img{
+    /*border: 2px solid red;*/
+    width: 300px;
+    position: relative;
+    top:;
+    bottom:;
+    right: ;
+    left:125px;
+}
+
+.ejem5 p, .ejem5 img{
+    display: inline-block;
+    width: 500px;
+    margin: 20px 48px;
+    /*border: 2px solid red;*/
+    font-size: 20px;
+    text-align: center;
+}
+
+.ejem5 p{
+    /*border: 2px solid red;*/
+    width: 500px;
+    position: relative;
+    top:;
+    bottom:62px;
+    right: ;
+    left: ;
+}

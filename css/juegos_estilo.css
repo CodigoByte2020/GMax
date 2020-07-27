@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+}
+
+htmml, body {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria;
+    background-color: rgba(255, 90, 43, .75);
+}
+
+/*h1 {
+    margin:20px 0px;
+    text-align: center;
+    font-size: 65px;
+    color: red;
+    font-family: "Huns 777 BlkCn BT";
+    text-shadow: 2px 2px 0px #ccc;
+}*/
+
+header{
+    /*display: block;*/
+    width: 1200px;
+    margin: 10px 74px 0px 74px;
+    padding: 0px 0px 0px 0px;
+}
+
+header section{
+    display: inline-block;
+}
+
+#logo{
+   position: relative;
+   top:;
+   bottom:;
+   right:;
+   left:400px;
+}
+
+header section h1{
+    /*display: inline-block;*/
+    width:250px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 65px;
+    color: red;
+    font-family: "Huns 777 BlkCn BT";
+    text-shadow: 2px 2px 0px #ccc; 
+    /*position: relative;
+    top:;
+    bottom:27px;
+    right:;
+    left:340px; */   
+}
+
+#titulo{
+    position:relative;
+    bottom: 15px;
+    position: relative;
+    top:;
+    right:;
+    left:450px;
+}
+
+.primer_menu ul {
+    background-color: #000000;
+    list-style: none;
+    padding:0px 0px 0px 0px;
+    width: 1200px;
+    margin:0px 74px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#juegos{
+    color: #000000;
+}
+
+.items li {
+    display: inline-block;
+    margin:0px;
+    padding: 10px 20px 10px 20px;
+    background: #3BA7E1;
+    box-shadow: 0px 5px 0px #1D64A6;
+    width: 196px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.items li:hover{
+    box-shadow: 0px 2px 0px #1D64A6;
+}
+
+.items li:active{
+   box-shadow: none; 
+}
+
+.items a:hover{
+    color:#000000;
+}
+
+.central a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.central{
+    display: block;
+    margin: 30px 75px;
+    padding:50px 40px;
+    width: 1200px;
+    /*border: 2px solid red;*/
+}
+
+.dota2 section{    
+    display: inline-block;
+    width: 405px;
+    margin: 10px 60px;
+    /*border: 2px solid red;*/
+}
+
+.dota2{
+   /*border: 2px solid red;*/
+}
+
+.dota2 section img{
+    padding:0px;
+    border-radius: 25px;
+    /*border: 1px solid rgba(255, 107,31.5);*/
+    box-shadow: 5px 5px 0px #000000; 
+}
+
+#desc_dota2{
+    width: 450px;
+    height: 150px;
+    text-align: justify;
+    font-size: 20px;
+    position: relative;
+    top:;
+    bottom: 35px;
+    right: ;
+    left: ;
+}
+
+.descarga_dota2{
+    width: 510px;
+    margin: 0px 0px 70px 0px;
+    /*border: 2px solid red;*/
+    position: relative;
+    top:;
+    bottom:;
+    right:;
+    left: 350px;
+}
+
+.descarga_dota2 section{
+    display: inline-block;
+    font-size: 12px;
+    width: 230px;
+    height: 60px;
+    /*border: 2px solid red;*/
+}
+
+.descarga_dota2 img{
+    display: block;
+    margin: auto;
+}
+
+.icono{
+    position: relative;
+    top:25px;
+    bottom:;
+    right:;
+    left:;
+}

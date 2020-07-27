@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+}
+
+htmml, body {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria;
+    background-color: rgba(255, 90, 43, .75);
+}
+
+header{
+    width: 1200px;
+    margin: 10px 74px 0px 74px;
+    padding: 0px 0px 0px 0px;
+}
+
+header section{
+    display: inline-block;
+}
+
+#logo{
+   position: relative;
+   top:;
+   bottom:;
+   right:;
+   left:400px;
+}
+
+header section h1{
+    width:250px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 65px;
+    color: red;
+    font-family: "Huns 777 BlkCn BT";
+    text-shadow: 2px 2px 0px #ccc; 
+}
+
+#titulo{
+    position:relative;
+    bottom: 15px;
+    position: relative;
+    top:;
+    right:;
+    left:450px;
+}
+
+.primer_menu ul {
+    background-color: #000000;
+    list-style: none;
+    padding:0px 0px 0px 0px;
+    width: 1200px;
+    margin:0px 74px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#registrogmax{
+    color: #000000;
+}
+
+.items li {
+    display: inline-block;
+    margin:0px;
+    padding: 10px 20px 10px 20px;
+    background: #3BA7E1;
+    box-shadow: 0px 5px 0px #1D64A6;
+    width: 196px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.items li:hover{
+    box-shadow: 0px 2px 0px #1D64A6;
+}
+
+.items li:active{
+   box-shadow: none; 
+}
+
+.items a:hover{
+    color:#000000;
+}
+
+form{
+    width:50%;
+    margin:0px 337px;
+    padding:20px;
+}
+
+label{
+    font-size: 14px;
+    display: block;
+}
+
+input {
+    box-sizing: content-box;
+    border: 1px solid #ccc; 
+}
+
+input[type="text"], [type="email"], [type="password"]{
+    width: 50%
+}
+
+input:focus {
+    border:1px solid #000000;
+}
+
+input[type="submit"], [type="reset"]{
+    font-weight: bold;
+    width:25%;
+    margin: 0px 65px;
+    background: #3BA7E1;
+    color:#fff;
+    border:none;
+    padding: 10px;
+}
+
+input[type="submit"], [type="reset"]:hover{
+    background:#1D64A6;
+    cursor: pointer;
+}
+
+.deportes input{
+    margin-left:45px;
+}
+
+.usuarios input{
+    margin-left:45px;
+}

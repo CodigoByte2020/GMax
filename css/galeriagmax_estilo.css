@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+}
+
+htmml, body {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria;
+    background-color: rgba(255, 90, 43, .75);
+}
+
+header{
+    width: 1200px;
+    margin: 10px 74px 0px 74px;
+    padding: 0px 0px 0px 0px;
+}
+
+header section{
+    display: inline-block;
+}
+
+#logo{
+   position: relative;
+   top:;
+   bottom:;
+   right:;
+   left:400px;
+}
+
+header section h1{
+    width:250px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 65px;
+    color: red;
+    font-family: "Huns 777 BlkCn BT";
+    text-shadow: 2px 2px 0px #ccc; 
+}
+
+#titulo{
+    position:relative;
+    bottom: 15px;
+    position: relative;
+    top:;
+    right:;
+    left:450px;
+}
+
+.primer_menu ul {
+    background-color: #000000;
+    list-style: none;
+    padding:0px 0px 0px 0px;
+    width: 1200px;
+    margin:0px 74px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#galeriagmax{
+    color: #000000;
+}
+
+.items li {
+    display: inline-block;
+    margin:0px;
+    padding: 10px 20px 10px 20px;
+    background: #3BA7E1;
+    box-shadow: 0px 5px 0px #1D64A6;
+    width: 196px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.items li:hover{
+    box-shadow: 0px 2px 0px #1D64A6;
+}
+
+.items li:active{
+    box-shadow: none;
+}
+
+.items a:hover{
+    color:#000000;
+}
+
+/*.imagenes_orden ul {
+    background-color: white;
+    list-style: none;
+    padding:0px 0px 0px 0px;
+    width: 1200px;
+    margin:0px 74px;
+}
+.img section{
+    display: inline-block;
+    width: 300px;
+    margin: 5px 15px 3px;
+    /*border: 2px solid red;
+}
+.video ul{
+    background-color: black;
+    list-style: none;
+    padding:0px 0px 0px 0px;
+    width: 1200px;
+    margin:0px 74px;
+}*/
+
+h3{
+    text-align: center;
+}
+.videojuegos{
+    width: 1200px;
+    margin: 50px 74px;
+}
+
+#gamercentral{
+    display: block;
+    margin:10px 350px;
+}
+
+.videogamer section{
+    display: inline-block;
+    margin: 10px 23px;
+}
+
+video{
+    margin:0px 320px;
+}
+
+.videogamer img, video{
+    padding:0px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 0px #ccc; 
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="images/GMax.png">
+    <meta charset="UTF-8">
+    <meta name="description" content="Llena nuestro formulario de registro para que puedas descargar los videojuegos gratuitos que te ofrecemos"/>
+    <meta name="keywords" content="registro gmax"/>
+    <title>REGISTRO GMax</title>
+    <link rel="stylesheet" href="css/registro_estilo.css"/>
+</head>
+<body>
+    <header>
+        <section id="logo">
+            <a href="index.html" title="Ir a Page Home"><img src="images/GMax.png" width="80 px"/></a>
+        </section>
+        <section id="titulo">
+           <h1>GMax</h1>
+        </section>
+    </header>
+    <nav class="primer_menu">
+            <ul class="items">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="juegos.html">VIDEOJUEGOS GMax</a></li>
+                <li><a href="comodescargar.html">¿CÓMO DESCARGAR?</a></li>
+                <li><a href="conocenos.html">CONÓCENOS</a></li>
+                <li><a href="galeriagmax.html">GALERÍA GMax</a></li>
+                <li><a id="registrogmax" href="#">REGISTRO GMax</a></li>
+            </ul>
+        </nav>
+
+    <br/><br/><br/>
+    <section class="formulario">
+        <form>
+            <fieldset>FORMULARIO DE REGISTRO ---> PLATAFORMA VIRTUAL DE ENTRETENIMIENTO GMax</fieldset>
+            <br/><br/>
+            <fieldset><legend>Datos Personales</legend>
+                <br/>
+                <label for="apellidos">Apellidos:</label>
+                <input id="apellidos" type="text" placeholder="Ingrese sus Apellidos" />
+                <br/><br/>
+                <label for="nombres">Nombres:</label>
+                <input id="nombres" type="text" placeholder="Ingrese sus Nombres" />
+                <br/><br/>
+                <label for="fechanac">Fecha de Nacimiento:</label>
+                <input id="fechanac" type="date" placeholder="Ingrese su fecha de nacimiento" />
+                <br/><br/>
+                <label for="celular">Celular:</label>
+                <input id="celular" type="number" placeholder="Ingrese su # de celular" />
+                <br/><br/>
+                <label for="correo">Correo Electrónico:</label>
+                <input id="correo" type="email" placeholder="Ingrese su Correo Electrónico" />
+            </fieldset>
+
+            <br/><br/>
+
+            <fieldset><legend>Datos de la Cuenta</legend>
+                <br/>
+                <label for="usuario">Usuario:</label>
+                <input id="usuarios" type="text" placeholder="Ingrese su Usuario" />
+                <br/><br/>
+                <label for="contraseña">Password:</label>
+                <input id="contraseña" type="password" placeholder="Ingrese su Password" />
+                <br/><br/>
+                <label for="usuario">Tipo de Usuario</label>
+                <br/>
+                <section class="usuarios">
+                    <input type="radio" name="usuario"/>Suscriptor
+                    <input type="radio" name="usuario"/>Premium
+                    <input type="radio" name="usuario"/>Exclusivo
+                    <input type="radio" name="usuario"/>Asociado
+                </section>
+            </fieldset>
+
+            <br/><br/>
+
+            <fieldset><legend>Cuéntanos mas Sobre ti</legend>
+                <br/>
+                <label>Deporte Favorito</label>
+                <br/>
+                <section class="deportes">
+                    <input type="checkbox" />Fútbol
+                    <input type="checkbox" />Vóley
+                    <input type="checkbox" />Basquet
+                    <input type="checkbox" />Natación
+                    <input type="checkbox" />Tenis
+                </section>
+                <br/><br/>
+                <label>Videojuego GMax preferido</label>
+                <br/>
+                <select>
+                    <option value="dota2">Dota 2</option>
+                    <option value="gunbound">Gunbound</option>
+                    <option value="rakion">Rakion</option>
+                    <option value="wolftime">Wolfteam</option>
+                    <option value="paladins">Paladins</option>
+                </select>
+            </fieldset>
+            <br/><br/>
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Borrar" />
+        </form>
+
+    </section>
+</body>
+</html>
